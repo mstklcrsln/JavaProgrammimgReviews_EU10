@@ -1,0 +1,40 @@
+package week04_10_01_2022;
+
+import java.util.Scanner;
+
+public class EligibleToDonate {
+  
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+
+        System.out.println("Enter your age");
+        int age = scan.nextInt();
+
+
+
+
+        if (age>=18){ // we checked age is greater tah or equal 18
+
+            System.out.println("enter your weight");
+            int weight = scan.nextInt();
+
+            if (weight>50){
+                System.out.println("You are eligible to donate blood");
+            }else {
+                System.out.println("You are not eligible to donate blood");
+            }
+
+        } else {
+            System.out.println("Age must be greater 18");
+        }
+
+
+
+
+
+
+    }
+
+
+}
