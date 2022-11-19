@@ -8,11 +8,11 @@ public class Task3_GetUniqueElements {
         int [] first= {1,2,3,4,5};
         int [] second = {4,5,6};
 
-        ArrayList<Integer> result = getUniquElements (first, second);
+        ArrayList<Integer> result = getUniqueElements (first, second);
         System.out.println(result); //[1, 2, 3, 4, 5, 6]
     }
 
-    public static ArrayList<Integer> getUniquElements(int[] first, int[] second) {
+    public static ArrayList<Integer> getUniqueElements(int[] first, int[] second) {
 
         ArrayList<Integer> result = new ArrayList<>();
       //  ArrayList<Integer> result= new ArrayList<>(Arrays.asList())
