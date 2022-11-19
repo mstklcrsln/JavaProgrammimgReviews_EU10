@@ -7,20 +7,20 @@ public class Task11HidePasswords {
 
         String [] password= {"one", "hi", "hold"};
             String [] result = hidePassword(password);
-        System.out.println(Arrays.toString(result));
+        System.out.println(Arrays.toString(result)); //[***, **, ****]
     }
 
     public static String[] hidePassword(String[] password) {
-        String [] results = new String[password.length];
+        String [] resultsOfHiddenPass = new String[password.length];
 
         int index=0; // we create this for increase in order
         for (String element : password) {
             // convert letter to stars
 
             String result = convertLetterToStar(element);
-            results[index++]= result;
+            resultsOfHiddenPass[index++]= result;
         }
-            return results;
+            return resultsOfHiddenPass;
     }
 // this method will get the string it will convert into the stars
     public static String convertLetterToStar(String s) {
