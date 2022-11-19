@@ -59,5 +59,31 @@ public class ArrayListIntro {
         System.out.println(numbers.lastIndexOf(1)); // it gives 6 ==> last matching one
 
 
+        //how to remove element
+
+       ArrayList<Integer> numbers2= new ArrayList<>();
+       //numbers2.addAll(2,3,4,5,6,7);
+
+        numbers2.add(2);
+        numbers2.add(3);
+        numbers2.add(4);
+        numbers2.add(5);
+        numbers2.add(1);
+
+        System.out.println(numbers2); //[2, 3, 4, 5, 1]
+
+      numbers2.remove(1);           // remove the element in index 1
+      System.out.println(numbers2);   // [2, 4, 5, 1] 3 will leave the island.
+        Integer b=4;
+       // or we can write like this
+        //  Integer a= new Integer(4);
+
+        numbers2.remove(b);
+        System.out.println(numbers2);  //[2, 5, 1] b ==> 4 removed
+
+        numbers2.remove(new Integer(5));  // we remove 5
+        System.out.println(numbers2);       //[2, 1]
+
+
     }
 }
