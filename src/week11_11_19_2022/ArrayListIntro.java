@@ -104,6 +104,5 @@ public class ArrayListIntro {
         System.out.println(numbers); //[3, 4, 5]
 
 
-
     }
 }
