@@ -1,6 +1,7 @@
 package week11_11_19_2022;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ArrayListIntro {
     public static void main(String[] args) {
@@ -84,6 +85,15 @@ public class ArrayListIntro {
         numbers2.remove(new Integer(5));  // we remove 5
         System.out.println(numbers2);       //[2, 1]
 
+        System.out.println("---------------");
+
+        // bulk operations
+        ArrayList<String> names = new ArrayList<>();
+
+        names.addAll(Arrays.asList("Adam", "Mesut", "Osman", "Seyma", "Falah"));
+
+        // removeIf method
+        System.out.println(numbers); //[1, 1, 2, 3, 4, 5, 1]
 
     }
 }
