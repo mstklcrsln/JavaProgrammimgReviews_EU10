@@ -1,9 +1,8 @@
 package week11_11_19_2022;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
-public class Task_GetUniqueElements {
+public class Task3_GetUniqueElements {
     public static void main(String[] args) {
 
         int [] first= {1,2,3,4,5};
