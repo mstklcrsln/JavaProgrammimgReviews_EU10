@@ -17,6 +17,7 @@ public class Task1_DivisibleBy3 {
        ArrayList <Integer> result = divisibleBy3(numbers);
 
         System.out.println(divisibleBy3(numbers)); //[3, 6, 9]
+        System.out.println(result); //[3, 6, 9]
     }
     // we create a method
     public static ArrayList<Integer> divisibleBy3(ArrayList<Integer> numbers) {
