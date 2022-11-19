@@ -7,10 +7,11 @@ public class CustomClassIntro {
         // class name reference = new keyword constructor
         SecondClass secondClass= new SecondClass();
                                     //FirstClass(int a, String b, SecondClass secondClass)
-        FirstClass firstObject = new FirstClass(4,"Mesut", secondClass)
+        FirstClass firstObject = new FirstClass(4,"Mesut", secondClass);
 
-
-
+        // how to get the attributes
+        System.out.println(firstObject.a);
+        System.out.println(firstObject.b);
 
     }
 }
