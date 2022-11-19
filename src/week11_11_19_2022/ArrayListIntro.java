@@ -95,5 +95,15 @@ public class ArrayListIntro {
         // removeIf method
         System.out.println(numbers); //[1, 1, 2, 3, 4, 5, 1]
 
+       /* for (Integer number : numbers) {
+            if (number<3){
+                numbers.remove(number); // we can not use like this, because for each iteration indexes are changing
+            }
+        }*/
+        numbers.removeIf(k-> k<3);  // if the element is smaller than 3 remove them
+        System.out.println(numbers); //[3, 4, 5]
+
+
+
     }
 }
