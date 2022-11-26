@@ -9,9 +9,7 @@ public class SearchInGoogle {
        navigateUrl("Google");
 
        search("Adam");
-
-
-
+        System.out.println(staticVariable); // we can import all static members
 
     }
 }
