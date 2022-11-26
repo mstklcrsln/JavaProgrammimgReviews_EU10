@@ -28,7 +28,8 @@ public class Student {
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", batchNumber=" + batchNumber +
-                '}';
+                ", school = " + school
+ +                '}';
     }
 }
 
