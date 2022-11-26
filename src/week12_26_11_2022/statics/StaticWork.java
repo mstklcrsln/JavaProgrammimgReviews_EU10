@@ -12,6 +12,14 @@ public class StaticWork {
     public static void main(String[] args) {
         System.out.println("main method");
     }
+    /*
+    when we run this it will not give anything because we did not run this metod
+
+    public static void methodStatic (){
+
+        System.out.println("void");
+    }
+     */
     static {
         System.out.println("third static");
     }
