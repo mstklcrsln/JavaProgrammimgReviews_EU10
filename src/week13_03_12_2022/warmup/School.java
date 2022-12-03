@@ -34,17 +34,12 @@ public class School {
        Teacher{name='Asya', lastName='Abc', gender=F, dateOfBirth=1990-01-01, age=32, ID=6},
        Teacher{name='Saim', lastName='Abc', gender=M, dateOfBirth=1989-01-01, age=33, ID=5}]
          */
-
-
         ArrayList <Teacher> result = getTeachersNameStartsWith("M");
         System.out.println(result);
         /*
         [Teacher{name='Muhtar', lastName='Abc', gender=M, dateOfBirth=1987-01-01, age=35, ID=1}, Teacher{name='Mike', lastName='Abc', gender=M, dateOfBirth=1970-01-01, age=52, ID=4}]
          */
-
-
      ArrayList<Teacher>  female=  getTeachersByGender('F');
-
         System.out.println(female);
         /*
         [Teacher{name='Asyun', lastName='Abc', gender=F, dateOfBirth=1967-01-01, age=55, ID=3}, Teacher{name='Asya', lastName='Abc', gender=F, dateOfBirth=1990-01-01, age=32, ID=6}]
