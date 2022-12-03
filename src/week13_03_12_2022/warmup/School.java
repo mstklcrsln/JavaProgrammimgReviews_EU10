@@ -37,6 +37,10 @@ public class School {
 
 
         ArrayList <Teacher> result = getTeachersNameStartsWith("M");
+        System.out.println(result);
+        /*
+        [Teacher{name='Muhtar', lastName='Abc', gender=M, dateOfBirth=1987-01-01, age=35, ID=1}, Teacher{name='Mike', lastName='Abc', gender=M, dateOfBirth=1970-01-01, age=52, ID=4}]
+         */
     }
 
     private static ArrayList<Teacher> getTeachersNameStartsWith(String prefix) {
@@ -48,8 +52,8 @@ public class School {
                 if (teacher.name.startsWith(prefix))
             // we will put that element inside the result
                     result.add(teacher);
-
     }
+        return result;
         }
 
 
