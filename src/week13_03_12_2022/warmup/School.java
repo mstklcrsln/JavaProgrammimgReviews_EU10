@@ -8,7 +8,6 @@ public class School {
         static ArrayList<Teacher> teachers= new ArrayList<>();
         static String school= "Cydeo";
 
-
         //3. create a list of teacher in School class inside the STATIC BLOCK
         static {
 
@@ -45,7 +44,6 @@ public class School {
         [Teacher{name='Asyun', lastName='Abc', gender=F, dateOfBirth=1967-01-01, age=55, ID=3}, Teacher{name='Asya', lastName='Abc', gender=F, dateOfBirth=1990-01-01, age=32, ID=6}]
          */
     }
-
     private static ArrayList<Teacher> getTeachersByGender(char gender) {
             ArrayList <Teacher> result = new ArrayList<>();
         for (Teacher teacher : teachers) {
@@ -56,7 +54,6 @@ public class School {
         }
     return result;
     }
-
     private static ArrayList<Teacher> getTeachersNameStartsWith(String prefix) {
             ArrayList<Teacher> result = new ArrayList<>();
 
@@ -69,8 +66,6 @@ public class School {
     }
         return result;
         }
-
-
 }
 /*
  2. create a class which is School with main method
