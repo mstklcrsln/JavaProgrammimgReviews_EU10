@@ -6,6 +6,8 @@ import java.util.Arrays;
 
 public class School {
         static ArrayList<Teacher> teachers= new ArrayList<>();
+        static String school= "Cydeo";
+
         static {
 
 
@@ -23,8 +25,9 @@ public class School {
 
 
 
+    }
 
-
+    public static void gerFemale (){
 
     }
 
