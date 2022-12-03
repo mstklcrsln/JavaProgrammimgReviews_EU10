@@ -8,6 +8,8 @@ public class School {
         static ArrayList<Teacher> teachers= new ArrayList<>();
         static String school= "Cydeo";
 
+
+        //3. create a list of teacher in School class inside the STATIC BLOCK
         static {
 
 
@@ -23,13 +25,33 @@ public class School {
 
     public static void main(String[] args) {
 
+        System.out.println(teachers);
+        /*
+       [Teacher{name='Gurhan', lastName='Abc', gender=M, dateOfBirth=1977-01-01, age=45, ID=2},
+       Teacher{name='Muhtar', lastName='Abc', gender=M, dateOfBirth=1987-01-01, age=35, ID=1},
+       Teacher{name='Asyun', lastName='Abc', gender=F, dateOfBirth=1967-01-01, age=55, ID=3},
+       Teacher{name='Mike', lastName='Abc', gender=M, dateOfBirth=1970-01-01, age=52, ID=4},
+       Teacher{name='Asya', lastName='Abc', gender=F, dateOfBirth=1990-01-01, age=32, ID=6},
+       Teacher{name='Saim', lastName='Abc', gender=M, dateOfBirth=1989-01-01, age=33, ID=5}]
+         */
 
 
+        ArrayList <Teacher> result = getTeachersNameStartsWith("M");
     }
 
-    public static void gerFemale (){
+    private static ArrayList<Teacher> getTeachersNameStartsWith(String prefix) {
+            ArrayList<Teacher> result = new ArrayList<>();
+
+            // i need to get teacher one by one
+        for (Teacher teacher : teachers) {
+            //check the name, if the name is starting with M
+                if (teacher.name.startsWith(prefix))
+            // we will put that element inside the result
+                    result.add(teacher);
 
     }
+        }
+
 
 }
 /*
@@ -40,4 +62,11 @@ public class School {
     5. create a method in School class then you will find the female teachers
     6. create a method in School class then find the teachers age smaller than 30
     7. create a methot in School class then find the teachers born in 1967 year
+
+    summary:
+global variables means belongs to current class
+local variable means belongs the current block
+static methods can use only static variables
+for assigning instance variables we will use constructors
+for  assigning static  variables we will use static block
  */
