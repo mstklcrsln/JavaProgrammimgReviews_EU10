@@ -9,4 +9,8 @@ public class Instagram extends MobileApp {
     MobileApp instagram = new MobileApp("Instagram", 2.5);
 
 
+    public void postPhoto(){
+        System.out.println("Posting photo");
+    }
+
 }
