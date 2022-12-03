@@ -11,10 +11,7 @@ public class Person {
     private int ID;
     // with private we can reach only inside the same lass
 
-
     protected int age;
     // with private we can reach only inside the same lass, package and sub classes
-
-
 
 }
