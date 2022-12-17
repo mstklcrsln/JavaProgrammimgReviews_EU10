@@ -19,6 +19,8 @@ public class TestInterest {
         //Interest of the GarantiBank
         garantiBank.calculateTheInterest(); //80
 
+
+
         IngBank ingBank = new IngBank();
         ingBank.calculateTheInterest();
         //Interest of the IngBank

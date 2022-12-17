@@ -16,6 +16,10 @@ public class Bank {
         if we create an object from bank class
          if we create an object from Garantibank class
 
+        which objects we're creating than in order to see it we need to get class name
+      getClass().getSimpleName()  Indicates which class the object belongs to.
+
+
          */
     }
 
