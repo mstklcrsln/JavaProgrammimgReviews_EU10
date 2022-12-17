@@ -4,6 +4,7 @@ public class IngBank extends Bank {
 
     @Override
     public void calculateTheInterest() {
+        super.calculateTheInterest();
         System.out.println(getCapital()*9/100);
     }
 }
