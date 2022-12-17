@@ -1,8 +1,9 @@
 package week15_17_12_2022.bankTask;
 
-public class GarantiBank extends Bank {
+public class Akbank extends Bank {
+
     @Override
     public void calculateTheInterest() {
-        System.out.println(getCapital()*8/100);
+        System.out.println(getCapital()*7*100);
     }
 }
