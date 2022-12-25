@@ -9,12 +9,12 @@ public class SeniorTester {
         public void junior1 (){
             // TODO you will create your job
         }
-    public void junior2 (){
-        // TODO you will create your job
-    }
-    public void junior3 (){
-        // TODO you will create your job
-    }
+        public void junior2 (){
+            // TODO you will create your job
+        }
+        public void junior3 (){
+            // TODO you will create your job
+        }
 
 
 }
