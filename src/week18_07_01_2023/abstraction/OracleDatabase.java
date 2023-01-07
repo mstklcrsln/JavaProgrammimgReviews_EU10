@@ -15,4 +15,10 @@ public class OracleDatabase extends  Database {
         names.remove(name);
 
     }
+
+    @Override
+    void update(String oldName, String newName) {
+        names.remove(oldName);
+        names.add(newName);
+    }
 }

@@ -13,6 +13,8 @@ public abstract class Database {
     //rule
     abstract void delete (String name);
 
+    abstract  void update (String oldName, String newName);
+
 
 
 

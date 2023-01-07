@@ -17,5 +17,13 @@ public class TestOracle {
         I will add Mesut inside the database
         oracleDatabase.names = [Adam, Mesut]
          */
+
+
+
+        oracleDatabase.delete("Adam");
+        System.out.println("oracleDatabase = " + oracleDatabase.names); //oracleDatabase = [Mesut]
+
+        oracleDatabase.update("Mesut", "Ali");
+        System.out.println("oracleDatabase.names = " + oracleDatabase.names); //oracleDatabase.names = [Ali]
     }
 }
