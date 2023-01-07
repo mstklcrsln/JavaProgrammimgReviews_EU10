@@ -1,6 +1,4 @@
-package week9_11_5_2022;
-
-import java.util.Arrays;
+package week09_11_5_2022;
 
 public class MultiDimensionalArrays {
     public static void main(String[] args) {
