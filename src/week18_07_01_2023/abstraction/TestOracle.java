@@ -18,8 +18,6 @@ public class TestOracle {
         oracleDatabase.names = [Adam, Mesut]
          */
 
-
-
         oracleDatabase.delete("Adam");
         System.out.println("oracleDatabase = " + oracleDatabase.names); //oracleDatabase = [Mesut]
 
