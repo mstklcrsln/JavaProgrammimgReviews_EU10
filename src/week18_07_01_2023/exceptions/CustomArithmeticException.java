@@ -1,4 +1,4 @@
-package week18_07_01_2023;
+package week18_07_01_2023.exceptions;
 
 public class CustomArithmeticException extends  ArithmeticException {
 
